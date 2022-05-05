@@ -1,5 +1,7 @@
 #include <pybind11/pybind11.h>
 
+namespace py = pybind11;
+
 char version[]="1.0";
 
 char const* getVersion() {
